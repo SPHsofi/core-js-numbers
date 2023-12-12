@@ -281,7 +281,7 @@ function getFibonacciNumber(/* index */) {
 /**
  * Returns the sum of all numbers from 1 to n.
  *
- * @param {number}
+ * @param {number} n
  * @return {number}
  *
  * @example:
@@ -354,8 +354,9 @@ function getSine(num) {
  * 255, 16 => 'ff'
  * 2, 2    => '10'
  */
-function numberToStringInBase(/* number, base */) {
-  throw new Error('Not implemented');
+function numberToStringInBase(number, base) {
+  return number.toString(base);
+  // throw new Error('Not implemented');
 }
 
 /**
